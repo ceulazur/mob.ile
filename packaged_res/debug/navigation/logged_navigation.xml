@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logged_navigation"
+    app:startDestination="@+id/navigation_home_logged">
+
+    <fragment
+        android:id="@+id/navigation_home_logged"
+        android:name="br.ufc.mobileproject.ui.home.HomeLoddedFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home_lodded" />
+
+    <fragment
+        android:id="@+id/navigation_perfil_logged"
+        android:name="br.ufc.mobileproject.ui.perfil.PerfilLoggedFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil_logged" />
+
+    <fragment
+        android:id="@+id/navigation_shopping_logged"
+        android:name="br.ufc.mobileproject.ui.shopping.ShoppingLoggedFragment"
+        android:label="@string/title_shopping"
+        tools:layout="@layout/fragment_shopping_logged" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="br.ufc.mobileproject.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="br.ufc.mobileproject.ui.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="br.ufc.mobileproject.ui.gallery.GalleryFragment"
+        android:label="@string/title_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_historic"
+        android:name="br.ufc.mobileproject.ui.historic.HistoricFragment"
+        android:label="@string/title_historic"
+        tools:layout="@layout/fragment_historic" />
+
+</navigation>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.shopping.ShoppingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/barLayoutSearchHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryColor"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:id="@+id/rltLayoutSearchHome"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp">
+
+                <EditText
+                    android:id="@+id/edtTxtSearchHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/search_background"
+                    android:drawableStart="@drawable/ic_search_icon_home"
+                    android:drawablePadding="10dp"
+                    android:hint="Buscar"
+                    android:imeOptions="actionDone"
+                    android:padding="6dp" />
+            </RelativeLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <ImageView
+                android:id="@+id/imgViewEmptyCart"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_add_shopping_cart_icon_shooping_empty" />
+
+            <TextView
+                android:id="@+id/txtViewEmptyCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Seu carrinho está vazio." />
+
+            <TextView
+                android:id="@+id/txtView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:text="Nada aqui. faça login." />
+
+
+            <Button
+                android:id="@+id/btnMakeLoginShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/primaryColor"
+                android:padding="10dp"
+                android:text="Faça login na sua conta"/>
+
+            <Button
+                android:id="@+id/btnCreateAccountShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/secundaryColor"
+                android:padding="10dp"
+                android:text="Inscreva-se agora" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <Button
+                android:id="@+id/btnContinueShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/primaryColor"
+                android:padding="10dp"
+                android:text="Continuar Comprando"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

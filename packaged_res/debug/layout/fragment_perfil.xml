@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.perfil.PerfilFragment">
+
+    <LinearLayout
+        android:id="@+id/lnrLayoutPerfil_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewPerfil1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Acesse sua conta para ter uma melhor experiencia"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textStyle="normal" />
+
+
+        <Button
+            android:id="@+id/btnMakeLoginPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/primaryColor"
+            android:padding="10dp"
+            android:text="Fazer Login" />
+
+        <Button
+            android:id="@+id/btnCreateAccountPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/secundaryColor"
+            android:padding="10dp"
+            android:text="Criar Conta" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgView_1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_home_icon_menu"
+                android:contentDescription="Essa imagem inspira artitas a quererem
+                 postar suas estampas dentro da aplicação."/>
+
+            <TextView
+                android:id="@+id/txtViewPerfil_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.9"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="Crie e venda suas proprias estampas"
+                android:textSize="25sp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgView_2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_home_icon_menu" />
+
+            <TextView
+                android:id="@+id/txtViewPerfil_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.9"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text=" Compre estampas feito por artitas independentes "
+                android:textSize="25sp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgView_3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_home_icon_menu" />
+
+            <TextView
+                android:id="@+id/txtViewPerfil_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.9"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Descubra novos modos de se vestir"
+                android:textSize="25sp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
